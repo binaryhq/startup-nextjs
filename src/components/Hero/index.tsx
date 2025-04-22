@@ -22,13 +22,13 @@ const Hero = () => {
                     href="mailto:support@onedigilta.in"
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    🔥 Get Started Today
+                    🔥 Request Talent
                   </Link>
                   <Link
                     href="mailto:support@onedigilta.in"
                     className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    ⭐ Explore Talent Pool
+                    ⭐ Schedule a Call
                   </Link>
                 </div>
               </div>
