@@ -46,8 +46,8 @@ const stats = [
 ];
 
 const AboutSectionOne = () => {
-  return <section id="how-it-works" className="relative bg-gradient-to-b from-blue-50 to-white overflow-hidden py-16">
-    <div className="container ">
+  return <section id="how-it-works" className="relative dark:bg-gray-dark bg-gradient-to-b  from-blue-50 to-white dark:from-gray-dark dark:to-gray-dark overflow-hidden py-16">
+    <div className="container z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <SectionTitle
         title="How It Works"
         paragraph=""
@@ -56,7 +56,7 @@ const AboutSectionOne = () => {
       <div className="grid sm:grid-cols-3 gap-8">
 
         {stats.map(stat => (
-          <div key={stat.title} className="text-center sm:text-left max-w-md sm:max-w-full mx-auto">
+          <div key={stat.title} className="text-center sm:text-left max-w-md sm:max-w-full mx-auto dark:text-white">
             {/* <h3 className="mb-5 flex items-center gap-2 text-3xl font-semibold justify-center sm:justify-start">
               {stat.title}
             </h3> */}
@@ -65,7 +65,7 @@ const AboutSectionOne = () => {
               {stat.icon}
               {stat.title}
             </h3>
-            <p className="text-body-color pr-[10px] text-base leading-relaxed font-medium">
+            <p className="text-body-color pr-[10px] text-base leading-relaxed font-medium dark:text-whitess">
               {stat.description}
             </p>
 
@@ -73,20 +73,7 @@ const AboutSectionOne = () => {
         ))}
       </div>
     </div>
-      {/* Wave SVG at bottom */}
-  <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">
-    <svg
-      className="relative block w-[200%] h-24"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1200 120"
-      preserveAspectRatio="none"
-    >
-      <path
-        d="M985.66 83.18c-58.37-4.09-111.93-9.15-162.59-15.65-98.64-12.4-186.32-30.6-283.06-35.4-103.88-5.13-202.93 14.18-306.76 29.21C153.11 72.88 77.55 80.92 0 69.28V120h1200V60.04c-60.37 15.7-122.94 24.61-188.84 23.14z"
-        fill="#fff"
-      />
-    </svg>
-  </div>
+
   </section>
 };
 
