@@ -19,13 +19,13 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="mailto:support@onedigilta.in"
+                    href="mailto:info@onedigilta.com"
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     🔥 Request Talent
                   </Link>
                   <Link
-                    href="https://zcal.co/onedigilta/30min"
+                    href="https://calendly.com/onedigilta-81kg/30min"
                     className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     ⭐ Schedule a Call
